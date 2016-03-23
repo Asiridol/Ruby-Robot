@@ -1,0 +1,9 @@
+PLACE 4,4,EAST
+MOVE
+LEFT
+LEFT
+MOVE
+LEFT
+MOVE
+adfadfadf asfdasdf asdfasdf
+REPORT
