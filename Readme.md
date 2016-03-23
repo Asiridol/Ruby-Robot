@@ -13,15 +13,21 @@ The robot is free to roam around the surface of the table, but must be prevented
 
 ## Valid Commands ##
 
-PLACE X,Y,F
+PLACE X,Y,F - places robot on the table at X, Y position facing F side. F can be NORTH, SOUTH, EAST or WEST
 
-MOVE
+MOVE - moves one step towards the facingn direction. But avoids falling off of the table.
+ 
+LEFT - rotates the robot counter clockwise
 
-LEFT
+RIGHT - rotates the robot clockwise
 
-RIGHT
+REPORT - announces current X,Y positions and the facing direction
 
-REPORT
+## Constraints ##
+
+0,0 is the South West corner of the table
+
+Ignores any commands received before a valid MOVE command
 
 ## How to use ##
 
